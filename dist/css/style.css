@@ -169,7 +169,7 @@ body {
 
 .footer-block {
   background-color: black;
-  padding: 30px;
+  padding: 20px;
 }
 
 .footer-block .icons a {
@@ -199,6 +199,11 @@ body {
 
 .footer-block .icons .github:hover {
   color: blueviolet;
+}
+
+.footer-block .logofooter {
+  position: absolute;
+  top: 80%;
 }
 
 @media (max-width: 575.98px) {
@@ -260,5 +265,16 @@ body {
 @media (min-width: 321px) and (max-width: 500px) {
   .form-block input {
     width: 70%;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 400px) {
+  .footer-block .icons {
+    margin-top: 50px;
+    margin-right: 25%;
+  }
+
+  .footer-block .logofooter {
+    left: 25%;
   }
 }
